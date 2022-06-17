@@ -49,7 +49,7 @@ https://templatemo.com/tm-550-diagoona
                                     <a class="nav-link tm-nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link tm-nav-link" href="NewsView.aspx">News <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link tm-nav-link" href="News.aspx">News <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="services.html">Services</a>
