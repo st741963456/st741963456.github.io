@@ -1,7 +1,8 @@
 本網站大多使用html寫成
 
+架構來自趙老師的網頁設計課範例 加上我自己更改樣式後編輯內容
 
-CSS樣式取自[DIAGOONA FREE CSS TEMPLATE](https://www.free-css.com/free-css-templates/page269/diagoona)
+CSS樣式模板取自[DIAGOONA FREE CSS TEMPLATE](https://www.free-css.com/free-css-templates/page269/diagoona)
 
 
 
