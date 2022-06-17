@@ -63,8 +63,37 @@ https://templatemo.com/tm-550-diagoona
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right">
                     <section class="tm-content">
-                        <h2>嗨起來</h2>
-                        <iframe width="800" height="600" src="https://www.youtube.com/embed/7mWpYodQ3lc?list=RD7mWpYodQ3lc" title="T-SQUARE TRUTH 1991" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <meta charset="UTF-8">                       
+                        <script>
+                            function time123() {
+                                var today = new Date();
+                                var year = today.getFullYear();
+                                var month = today.getMonth();
+                                var day = today.getDay();
+                                var hour = today.getHours();
+                                var minute = today.getMinutes();
+                                var second = today.getSeconds();
+
+                                minute = checkTime(minute);
+                                second = checkTime(second);
+
+                                document.getElementById("time").innerHTML =
+                                    year + "年" + month + "月" + day + "日" + hour + ":" + minute + ":" + second;
+                                t = setTimeout("time123()", 500);
+                            }
+
+                            function checkTime(i) {
+                                if (i < 10) {
+                                    i = "0" + i;
+                                }
+                                return i;
+                            }
+                        </script>
+                        <style>
+                            p.clock{border-width: 800px;}
+                        </style>
+                        <h1>時鐘</h1>
+                        <p id="time" class="clock"><script>time123()</script></p>
                         <hr class="mb-5">
                         <a href="login.aspx" class="btn btn-primary">登入(互動網頁課用)</a>
                     </section>
